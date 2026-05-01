@@ -1,0 +1,59 @@
+body {
+    background-color:rgb(255, 255, 255);
+}
+
+@font-face {
+    font-family: "crozet";
+    src: url('Crozet-Regular.woff') format('woff');
+}
+
+div.title {
+    font-family: "crozet";
+    font-size: 100px
+       
+}
+
+div.content {
+    font-family:"dico-code-one";
+    font-weight: 400;
+    font-style: normal;
+
+    text-align: right;
+
+}
+div.container {
+    display:flex;
+    flex-wrap: wrap;
+}  
+
+div.item {
+    background-color: beige;
+}
+div.width16 {
+    width:16.6666666667%;
+}
+div.width16 {
+    width:16.6666666667%;
+}
+div.width16 {
+    width:16.6666666667%;
+}
+div.width16 {
+    width:16.6666666667%;
+}
+div.width16 {
+    width:16.6666666667%;
+}
+div.width16 {
+    width:16.6666666667%;
+}
+
+
+
+div.quote {
+ div.width66 {
+    width:66.6666666667%;
+ }
+    
+
+}
