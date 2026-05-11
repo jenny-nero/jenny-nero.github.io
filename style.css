@@ -7,15 +7,16 @@ body {
     src: url('Crozet-Regular.woff') format('woff');
 }
 
+
 div.title {
     font-family: "crozet";
     font-size: 120px;
-    text-align: center;
+    text-align: left;
     width: 100%;
     display: flex;
     padding: 10px;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 500px;
+    margin-bottom: 200px;
 }
 
 
@@ -93,7 +94,6 @@ div.quote {
     font-size: 50px;
     text-align: left;
     margin-bottom: 50px;  
-    
 
 }
 @keyframes shakeX {
@@ -108,17 +108,19 @@ div.quote .item {
 }
 
 img {
-    width: 1000px;
+    width: 200px;
     height: auto;
     display: block;
     margin: 0 auto;
     padding: 30px
+     flex: auto;
 }
 
 
 div.width30 {
     width: 30%
 }
+
 
 div.width70 {
     width: 70%
@@ -130,12 +132,15 @@ div.bodytext {
     font-size: medium;
     padding: 30px;
     margin-bottom: 60px;
+    flex: auto;
 }
 
 div.subheadings {
- font-family:"dico-code-one";   
+    font-family:"dico-code-one";   
     text-align: left;
     font-size: 60px;
-
-
+    flex: auto;
 }
+
+
+
