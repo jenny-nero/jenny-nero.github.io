@@ -16,9 +16,16 @@ div.title {
     display: flex;
     padding: 10px;
     margin-top: 500px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
+div.line {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+
+
+}
 
 .title {
   animation: flash 1s infinite;
@@ -111,16 +118,28 @@ img {
     width: 200px;
     height: auto;
     display: block;
-    margin: 0 auto;
+    margin: 20px ;
     padding: 30px
-     flex: auto;
+    flex: auto;
 }
 
+div.top.image {
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  height: 20px;
+  width: auto;
+  padding: 10px;
+}
+
+div.top.image img {
+  width: 100px;  
+  height: auto;
+}
 
 div.width30 {
     width: 30%
 }
-
 
 div.width70 {
     width: 70%
@@ -141,6 +160,14 @@ div.subheadings {
     font-size: 60px;
     flex: auto;
 }
+
+div.index {
+    font-family:"dico-code-one";
+    font-weight: 24px;
+    font-style: normal;
+    text-align: left;
+}
+
 
 
 
