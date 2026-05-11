@@ -24,7 +24,6 @@ div.line {
     display: flex;
     padding: 10px;
 
-
 }
 
 .title {
@@ -120,7 +119,7 @@ img {
     display: block;
     margin: 20px ;
     padding: 30px
-    flex: auto;
+
 }
 
 div.top.image {
@@ -129,7 +128,7 @@ div.top.image {
   position: fixed;
   height: 20px;
   width: auto;
-  padding: 10px;
+  flex: auto;
 }
 
 div.top.image img {
