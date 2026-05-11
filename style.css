@@ -85,25 +85,26 @@ div.width25 {
 }
 
 
-
 div.quote {
-   width: 100%;
+    flex: auto;
+    width: 100%;
     display: block;
     font-family: "crozet";
     font-size: 50px;
-    text-align: center;
-    margin-bottom: 20px;  
+    text-align: left;
+    margin-bottom: 50px;  
+    
 
 }
-
-.quote {
-    animation: shakeX 1.6s infinite;
-}
-
 @keyframes shakeX {
   0%, 100% { transform: translateX(0); }
   25% { transform: translateX(-10px); }
   75% { transform: translateX(10px); }
+}
+
+div.quote .item {
+    animation: shakeX 1.6s infinite;
+
 }
 
 img {
@@ -122,19 +123,19 @@ div.width30 {
 div.width70 {
     width: 70%
 }
-div.container {
-    display:flex;
-    flex-wrap: wrap;
-    font-family:"dico-code-one";
-    font-size: medium;
-    padding: 30px;
-    text-align: left;
-    margin-top: 20px;
-}
 
 div.bodytext {
     font-family:"dico-code-one";   
     text-align: left;
     font-size: medium;
     padding: 30px;
+    margin-bottom: 60px;
+}
+
+div.subheadings {
+ font-family:"dico-code-one";   
+    text-align: left;
+    font-size: 60px;
+
+
 }
