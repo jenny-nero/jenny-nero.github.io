@@ -34,7 +34,7 @@ div.title {
   overflow: hidden;
   margin: 0 auto;
   width: 20ch; 
-  animation: typing 3s steps(20), blink 0.5s;
+  animation: typing 3s steps(20), alternate, blink 0.5s;
 }
 
 
