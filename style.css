@@ -19,13 +19,6 @@ div.title {
     margin-bottom: 100px;
 }
 
-div.line {
-    width: 100%;
-    display: flex;
-    padding: 10px;
-
-}
-
 .title {
   animation: flash 1s infinite;
 }
@@ -117,9 +110,9 @@ img {
     width: 200px;
     height: auto;
     display: block;
-    margin: 20px ;
+    margin: left ;
     padding: 30px
-
+    
 }
 
 div.top.image {
