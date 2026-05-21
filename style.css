@@ -15,8 +15,9 @@ div.title {
     width: 100%;
     display: flex;
     padding: 10px;
-    margin-top: 500px;
-    margin-bottom: 100px;
+    margin-top: 300px;
+    margin-bottom: 400px;
+    flex: auto;
 }
 
 .title {
@@ -61,38 +62,18 @@ div.content {
     border-bottom:1px solid rgb(255, 255, 255);
 }
 
-div.width16 {
-    width: 16.6666666667%;
-}
-
 div.quote {
     display:flex;
     flex-wrap: wrap;
-    margin-top:30px;
     margin-left:auto;
     }
 
-div.width25 {
-    width: 25%
-}
-
-div.width50 {
-    width: 50%
-}
-
-div.width25 {
-    width: 25%
-}
-
-
 div.quote {
-    flex: auto;
-    width: 100%;
-    display: block;
     font-family: "crozet";
     font-size: 50px;
     text-align: left;
-    margin-bottom: 50px;  
+    margin-bottom: 400px;  
+    margin-left: 500px;
 
 }
 @keyframes shakeX {
@@ -129,21 +110,21 @@ div.top.image img {
   height: auto;
 }
 
-div.width30 {
-    width: 30%
-}
-
-div.width70 {
-    width: 70%
-}
 
 div.bodytext {
     font-family:"dico-code-one";   
     text-align: left;
-    font-size: medium;
+    font-size: 21px;
     padding: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 400px;
     flex: auto;
+}
+
+div.meanings {
+  font-family:"dico-code-one"
+  font-size: 16px;
+  padding: 10px;
+
 }
 
 div.subheadings {
@@ -160,6 +141,9 @@ div.index {
     text-align: left;
 }
 
-
-
+div.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.2fr 2fr 4fr ;
+    gap: 10px;
+}
 
