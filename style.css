@@ -2,6 +2,10 @@ body {
     background-color:rgb(255, 255, 255);
 }
 
+* {
+  outline: 0px solid red;
+}
+
 @font-face {
     font-family: "crozet";
     src: url('Crozet-Regular.woff') format('woff');
@@ -87,13 +91,22 @@ div.quote .item {
 
 }
 
-img {
+img.small {
     width: 200px;
     height: auto;
     display: block;
     margin: left ;
     padding: 30px
     
+}
+
+img.medium {
+    width: 400px; 
+      display: block;
+}
+
+img.large {
+  width: 100%;
 }
 
 div.top.image {
@@ -136,14 +149,24 @@ div.subheadings {
 
 div.index {
     font-family:"dico-code-one";
-    font-weight: 24px;
+    font-size: 24px;
     font-style: normal;
     text-align: left;
 }
 
-div.grid {
+div.grid1 {
     display: grid;
     grid-template-columns: 1fr 2fr 0.2fr 2fr 4fr ;
     gap: 10px;
 }
+
+div.spancol {
+  grid-column: span 2;
+
+}
+
+div.designtest {
+  width: 100%;
+}
+
 
