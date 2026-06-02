@@ -52,8 +52,31 @@ div.title {
   50% { border-color: transparent; }
 }
 
+#section-titles {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+   font-family:"dico-code-one";
+    font-weight: 400;
+    font-style: normal;
+}
 
-div.content {
+#section-titles span {
+  display: block;
+  color: #999;
+  transition: color 0.3s, font-weight 0.3s;
+}
+
+#section-titles span.active {
+  color: #000;
+  font-weight: bold;
+ text-decoration: underline;
+  font-family:"dico-code-one";
+    font-style: bold;
+}
+
+
+/* div.content {
     font-family:"dico-code-one";
     font-weight: 400;
     font-style: normal;
@@ -64,7 +87,7 @@ div.content {
     padding:10px;
     background: white;
     border-bottom:1px solid rgb(255, 255, 255);
-}
+} */
 
 div.quote {
     display:flex;
@@ -117,7 +140,7 @@ div.top.image {
   width: auto;
   flex: auto;
 }
-
+ 
 div.top.image img {
   width: 100px;  
   height: auto;
@@ -134,7 +157,7 @@ div.bodytext {
 }
 
 div.meanings {
-  font-family:"dico-code-one"
+  font-family:"dico-code-one";
   font-size: 16px;
   padding: 10px;
 
@@ -169,4 +192,6 @@ div.designtest {
   width: 100%;
 }
 
-
+div.margin-bottom-10vh {
+  margin-bottom: 10vh;
+}
